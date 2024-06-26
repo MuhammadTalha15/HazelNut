@@ -3,10 +3,11 @@ import  '../styles/navbar.css';
 import App from '../App';
 import Logo from '../assets/Logo/logo.png'
 import { useState, useEffect } from "react";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
 
+  const path = useLocation();
   const [headerClass, setheaderClass] = useState('header');
   const [navbarClass, setnavbarClass] = useState('navbar');
 
@@ -17,6 +18,10 @@ const Navbar = () => {
   const navbarToggle = () => {
     setnavbarClass((prevClass) => (prevClass === 'navbar') ? 'navbar-active' : 'navbar');
   }
+
+  useEffect(() => {
+    setnavbarClass(prevClass => prevClass = 'navbar');
+  },[path]);
 
 
   return (
