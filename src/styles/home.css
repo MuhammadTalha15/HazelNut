@@ -1,0 +1,275 @@
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+}
+
+.first{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3), rgba(0,0,0,0.7)),url(../assets/Images/hero-background-min.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5vmax;
+}
+
+.content-cnt{
+    height: 100%;
+    padding: 0 2vmax;
+    display: flex;
+    padding-top: 5vmax;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.greeting{
+    font-size: 6vmax;
+    color: transparent;
+    font-family: var(--Poppins-font);
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.greet-after{
+    font-size: 2vmax;
+    color: #bfbfbf;
+    font-family: var(--Poppins-font);
+    font-weight: 300;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.name{
+    font-size: 4vmax;
+    color: #fff;
+    font-family: var(--Poppins-font);
+    font-weight: 400;
+}
+
+.intro-tllr{
+    font-size: 2vmax;
+    color: #bfbfbf;
+    font-family: var(--Poppins-font);
+    font-weight: 300;
+}
+
+.prof{
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn-cnt{
+    height: 5vmax;
+    width: 28vmax;
+    margin: 2vmax 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3rem;
+}
+
+.btn-cnt a{
+    text-decoration: none;
+}
+
+.btn{
+    list-style: none;
+    color: #fff;
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    width: 13vmax;
+    height: 3vmax;
+    border: 1.5px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1.5px solid #fff;
+}
+
+.scl-cnt{
+    height: 5vmax;
+    width: 28vmax;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.5vmax;
+}
+
+.scl-fllw{
+    position: relative;
+    font-family: var(--Poppins-font);
+    color: #fff;
+    font-size: 1.1vmax;
+    margin-left: 6vmax;
+    font-weight: 300;
+}
+
+.scl-fllw::after{
+    position: absolute;
+    content: '';
+    height: .1vmax;
+    width: 5vmax;
+    background-color: #fff;
+    left: -115%;
+    top: 50%;
+}
+
+.scl{
+    height: 1vmax;
+    width: 1vmax;
+    filter: invert(97%) sepia(52%) saturate(918%) hue-rotate(203deg) brightness(128%) contrast(100%);
+}
+
+.scl:hover{
+    filter: invert(83%) sepia(0%) saturate(573%) hue-rotate(223deg) brightness(95%) contrast(65%);
+}
+
+.face{
+    background-image: url(../assets/Icons/facebook.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ins{
+    background-image: url(../assets/Icons/instagram.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stack{
+    background-image: url(../assets/Icons/stack-overflow.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.git{
+    background-image: url(../assets/Icons/github.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media (max-width: 780px){
+
+    .hero-section{
+        padding: 2vmax;
+    }
+
+    .content-cnt{
+        padding-top: 0;
+    }
+
+    .greeting{
+        font-size: 7vmax;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .greet-after{
+        font-size: 4vmax;
+    }
+
+    .name{
+        font-size: 4.7vmax;
+    }
+    
+    .intro-tllr{
+        font-size: 2.5vmax;
+        color: #bfbfbf;
+        font-family: var(--Poppins-font);
+        font-weight: 400;
+    }
+    
+    .prof{
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .btn-cnt{
+        height: 8vmin;
+        width: 33vmax;
+    }
+
+    .btn{
+        width: 14vmax;
+        height: 4vmax;
+    }
+}
+
+@media (max-width: 390px){
+
+    .hero-section{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .content-cnt{
+        height: 100%;
+        padding: 0 4vmin;
+        display: flex;
+        padding-top: 0;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .greeting{
+        font-size: 13vmin;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .greet-after{
+        font-size: 6vmin;
+    }
+
+    .name{
+        font-size: 8.5vmin;
+    }
+    
+    .intro-tllr{
+        font-size: 4.5vmin;
+    }
+    
+    .prof{
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .btn-cnt{
+        height: 10vmax;
+        width: 40vmin;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3vmin;
+    }
+
+    .btn{
+        width: 30vmin;
+        height: 7vmin;
+    }
+}

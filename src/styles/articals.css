@@ -1,0 +1,20 @@
+:root {
+    --Poppins-font: 'Poppins', sans-serif;
+    --cursive-font: 'Comfortaa', cursive;
+    --Roboto-font: 'Roboto', sans-serif;
+}
+
+.artical-hearo-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artical-head{
+    color: azure;
+    font-family: var(--Poppins-font);
+    font-size: 2.5vmax;
+    font-weight: 300;
+}
