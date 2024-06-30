@@ -7,6 +7,7 @@ import PythonLogo from '../assets/Logo/py.png'
 import CPPLogo from '../assets/Logo/cpp.png'
 
 const Projects = () => {
+
     return (
         <>
             <section className="prjct-hero">
@@ -46,6 +47,7 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
+            
             <section className="projects-container-second-section">
                 <div className="headwrapper">
                     <h2 className="prjct-scnd-head">Things I’ve made so Far.</h2>

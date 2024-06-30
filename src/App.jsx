@@ -22,7 +22,7 @@ function App() {
 
   const routes = createBrowserRouter([
     {
-      path: '/Website',
+      path: '/Website/',
       element: <><Navbar /><Home /></>
     },
     {

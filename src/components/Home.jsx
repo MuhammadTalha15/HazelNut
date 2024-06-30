@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
+import Footer from './Footer'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -35,6 +36,7 @@ const Home = () => {
             </div>
           </div>
         </section>
+        <Footer />
       </section>
     </>
   )

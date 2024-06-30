@@ -1,0 +1,25 @@
+:root {
+    --Poppins-font: 'Poppins', sans-serif;
+    --cursive-font: 'Comfortaa', cursivv;
+    --Roboto-font: 'Roboto', sans-serif;
+    --diff-color: #14b8a6;;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 2vmax;
+    /* background-color: #131313;    */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+.footer-text{
+    color: #fff;
+    font-family: var(--Poppins-font);
+    font-size: .7vmax;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
