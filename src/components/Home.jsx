@@ -25,7 +25,7 @@ const Home = () => {
             <h3 className="intro-tllr">I am a <span className='prof'>{text}</span><Cursor /></h3>
             <div className="btn-cnt">
               <li className='btn resume'>Resume</li>
-              <Link to="/Website/Contact"><li className='btn contact'>Contact Me</li></Link>
+              <Link to="/Contact"><li className='btn contact'>Contact Me</li></Link>
             </div>
             <div className="scl-cnt">
                 <a href="#" className='scl face' title='Facebook'></a>
