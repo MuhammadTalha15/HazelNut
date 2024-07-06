@@ -32,11 +32,11 @@ const Navbar = () => {
       </Link>
       <nav id='navbar' className={navbarClass}>
         <ul>
-          <Link to="/Website/"><li className='nav-li'>Home</li></Link>
-          <Link to="/Website/About"><li className='nav-li'>About</li></Link>
-          <Link to="/Website/Projects"><li className='nav-li'>Projects</li></Link>
-          <Link to="/Website/Articals"><li className='nav-li'>Articals</li></Link>
-          <Link to="/Website/Contact"><li className='nav-li'>Contact</li></Link>
+          <Link to="/"><li className='nav-li'>Home</li></Link>
+          <Link to="/About"><li className='nav-li'>About</li></Link>
+          <Link to="/Projects"><li className='nav-li'>Projects</li></Link>
+          <Link to="/Articals"><li className='nav-li'>Articals</li></Link>
+          <Link to="/Contact"><li className='nav-li'>Contact</li></Link>
         </ul>
       </nav>
 
