@@ -26,19 +26,19 @@ function App() {
       element: <><Navbar /><Home /></>
     },
     {
-      path: '/Website/About',
+      path: '/About',
       element: <><Navbar /><About /></>
     },
     {
-      path: '/Website/Projects',
+      path: '/Projects',
       element: <><Navbar /><Projects /></>
     },
     {
-      path: '/Website/Articals',
+      path: '/Articals',
       element: <><Navbar /><Articals /></>
     },
     {
-      path: '/Website/Contact',
+      path: '/Contact',
       element: <><Navbar /><Contact /></>
     }
   ])
