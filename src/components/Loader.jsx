@@ -6,7 +6,7 @@ const Loader = () => {
     <>
     <div className="loader" id="loader">
       <div className="spinner"></div>
-      <h2 className="loader-tllr">Loading</h2>
+      <img className='loader-logo' src={LoadingLogo} alt="" loading='lazy'/>
     </div>
     </>
   )
