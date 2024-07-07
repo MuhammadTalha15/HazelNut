@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/preloader.css'
+import LoadingLogo from '../assets/Logo/Loading-Logo.png'
 
 const Loader = () => {
   return (
