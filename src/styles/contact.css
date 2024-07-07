@@ -9,7 +9,7 @@
 .cntct-hero {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/Images/cool-black-desk-desktop-wallpaper-backgrounds.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/Images/contact-background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
