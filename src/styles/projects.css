@@ -8,7 +8,7 @@
 .prjct-hero {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/Images/pexels-jeshoots-218863-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/Images/project-background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
