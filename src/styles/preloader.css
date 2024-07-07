@@ -13,18 +13,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 1vmax;
     z-index: 1000;
     pointer-events: none;
 }
 
-.loader-tllr{
-    color: #fff;
-    font-size: 1.3vmax;
-    font-family: 'Poppins',sans-serif;
-    font-weight: 300;
-    margin-top: 1vmax;
-    user-select: none;
-    pointer-events: none;
+.loader-logo{
+    width: 5vmax;
 }
 
 .spinner{
