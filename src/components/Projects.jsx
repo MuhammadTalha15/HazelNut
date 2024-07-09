@@ -54,11 +54,11 @@ const Projects = () => {
                     <p className='prjct-scnd-head-para'>Following are Projects that I've Created by Myself and More Stunning Projects are still On way.</p>
                 </div>
                 <div className="project-cont-wrapper">
-                    <ProjectCard image={JavascriptLogo} projectHeading="Todo List App" projectDescription="A sleek and efficient to-do list app built with vanilla JavaScript, designed to help you manage tasks effortlessly with a clean and intuitive interface." />
-                    <ProjectCard image={JavascriptLogo} projectHeading="Tic Tac Toe Game" projectDescription="A classic Tic Tac Toe game created in vanilla JavaScript, offering a smooth and interactive experience with a simple, user-friendly interface." />
-                    <ProjectCard image={ReactLogo} projectHeading="Resume" projectDescription="A dynamic and responsive resume crafted with React.js, showcasing my skills, experience, and achievements with a modern, clean design." />
-                    <ProjectCard image={PythonLogo} projectHeading="QR Code Generator" projectDescription="A robust QR code generator built with Python, enabling you to create customized QR codes quickly and easily." />
-                    <ProjectCard image={CPPLogo} projectHeading="Game in C++" projectDescription="A fully-functional Tic Tac Toe clone developed in C++, providing a seamless and engaging gameplay experience." />
+                    <ProjectCard image={JavascriptLogo} projectHeading="Todo List App" projectDescription="A sleek and efficient to-do list app built with vanilla JavaScript, designed to help you manage tasks effortlessly with a clean and intuitive interface." projectLink="https://github.com/MuhammadTalha15/Todo-List-App" />
+                    <ProjectCard image={JavascriptLogo} projectHeading="Tic Tac Toe Game" projectDescription="A classic Tic Tac Toe game created in vanilla JavaScript, offering a smooth and interactive experience with a simple, user-friendly interface." projectLink="https://github.com/MuhammadTalha15/Tic-Tac-Toe" />
+                    <ProjectCard image={ReactLogo} projectHeading="Resume" projectDescription="A dynamic and responsive resume crafted with React.js, showcasing my skills, experience, and achievements with a modern, clean design." projectLink="#" />
+                    <ProjectCard image={PythonLogo} projectHeading="QR Code Generator" projectDescription="A robust QR code generator built with Python, enabling you to create customized QR codes quickly and easily." projectLink="https://github.com/MuhammadTalha15/QR-Code-Generator-Python" />
+                    <ProjectCard image={CPPLogo} projectHeading="Game in C++" projectDescription="A fully-functional Tic Tac Toe clone developed in C++, providing a seamless and engaging gameplay experience." projectLink="https://github.com/MuhammadTalha15/Tic-Tac-Toe-C-" />
                 </div>
             </section>
         </>

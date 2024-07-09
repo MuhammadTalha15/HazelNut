@@ -11,10 +11,10 @@ const Contact = () => {
             <p className="contact-para">Feel free to Contact me</p>
             <p className="contact-des">Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at <a href='#' className='contact-des-email'>talhaz5518@gmail.com</a></p>
             <div className="contact-link-cnt">
-              <a href="#" className='contact-scl-links'><span className='contact-links-ico f'></span>Follow on Facebook</a>
-              <a href="#" className='contact-scl-links'><span className='contact-links-ico i'></span>Follow on Instagram</a>
-              <a href="#" className='contact-scl-links'><span className='contact-links-ico g'></span>Follow on Github</a>
-              <a href="#" className='contact-scl-links eml-a'><span className='contact-links-ico e'></span> talhaz5518@gmail.com</a>
+              <a href="https://www.facebook.com/profile.php?id=100092518021987" className='contact-scl-links'><span className='contact-links-ico f'></span>Follow on Facebook</a>
+              <a href="https://www.instagram.com/ttlha._15" className='contact-scl-links'><span className='contact-links-ico i'></span>Follow on Instagram</a>
+              <a href="https://www.github.com/Muhammadtalha15" className='contact-scl-links'><span className='contact-links-ico g'></span>Follow on Github</a>
+              <a href="https://mail.google.com" className='contact-scl-links eml-a'><span className='contact-links-ico e'></span> talhaz5518@gmail.com</a>
             </div>
           </div>
         </div>

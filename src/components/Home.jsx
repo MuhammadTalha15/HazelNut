@@ -28,10 +28,10 @@ const Home = () => {
               <Link to="/Contact"><li className='btn contact'>Contact Me</li></Link>
             </div>
             <div className="scl-cnt">
-                <a href="#" className='scl face' title='Facebook'></a>
-                <a href="#" className='scl ins' title='Instagram'></a>
-                <a href="#" className='scl stack' title='StackOverflow'></a>
-                <a href="#" className='scl git' title='Github'></a>
+                <a href="https://www.facebook.com/profile.php?id=100092518021987" className='scl face' title='Facebook'></a>
+                <a href="https://www.instagram.com/ttlha._15" className='scl ins' title='Instagram'></a>
+                <a href="https://stackoverflow.com/users/23203699/muhammad-talha?tab=topactivity" className='scl stack' title='StackOverflow'></a>
+                <a href="https://www.github.com/MuhammadTalha15" className='scl git' title='Github'></a>
                 <p className='scl-fllw'>Follow Me</p>
             </div>
           </div>
