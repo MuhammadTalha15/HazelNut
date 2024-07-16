@@ -41,6 +41,11 @@ const About = () => {
                     </table>
                 </div>
             </section>
+            <section className="abt-scnd-sec">
+                <div className="ext-lft"></div>
+                <div className="mid"></div>
+                <div className="ext-rgt"></div>
+            </section>
         </>
     )
 }

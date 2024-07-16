@@ -50,7 +50,6 @@
 .abt-table{
     height: 25vmax;
     width: 35vmax;
-    /* border: 1px solid; */
     border-collapse: collapse;
 }
 
@@ -68,10 +67,39 @@ td{
     font-size: 1vmax;
     font-weight: 300;
     font-family: var(--Poppins-font);
-    /* padding-left: 3vmax; */
     text-align: left;
     color: #a0a0a0;
 }
+
+/* ------------ */
+
+.abt-scnd-sec{
+    height: 100vh;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ext-lft{
+    border: 1px solid;
+    height: 100%;
+    width: 30%;
+}
+
+.mid{
+    border: 1px solid;
+    height: 100%;
+    width: 40%;
+}
+
+.ext-rgt{
+    border: 1px solid;
+    height: 100%;
+    width: 30%;
+}
+
+/* ------------ */
 
 @media (max-width: 750px) {
 
@@ -129,29 +157,4 @@ td{
         width: 30vmax;
     }
 
-    /*
-    .greeting{
-        font-size: 7vmax;
-        -webkit-text-stroke: 1px #fff;
-    }
-
-    .greet-after{
-        font-size: 4vmax;
-    }
-
-    .name{
-        font-size: 4.7vmax;
-    }
-    
-    .intro-tllr{
-        font-size: 2.5vmax;
-        color: #bfbfbf;
-        font-family: var(--Poppins-font);
-        font-weight: 400;
-    }
-    
-    .prof{
-        color: #fff;
-        font-weight: 600;
-    } */
 }
