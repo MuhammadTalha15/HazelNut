@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <>
     <header className={headerClass}>
-      <Link to="/Website">
+      <Link to="/">
         <img className='logo' src={Logo} alt="Logo" />
       </Link>
       <nav id='navbar' className={navbarClass}>

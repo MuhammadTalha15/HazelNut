@@ -14,8 +14,8 @@ const Projects = () => {
                 <div className="prjct-txt prjct-cont">
                     <div className="prjct-txt-cont-cnt">
                         <h1 className="prjct-head">PROJECTS</h1>
-                        <p className="descrip">I have Craeted many frontend and Backend Web Projects as well as Desktop Applications and Automation Applications.</p>
-                        <p className="descrip-main">I've developed a diversity of projects using a wide array of technologies. In front-end development, I've built numerous applications with JavaScript, React, Redux, Next.js, and Vite, ranging from dynamic single-page apps to complex user interfaces. On the back-end, I've created robust APIs with Python and Express.js, often integrating MongoDB for scalable database solutions. My experience with C and C++ includes optimizing performance-critical applications and contributing to open-source projects.</p>
+                        <p className="prjct-descrip">I have Craeted many frontend and Backend Web Projects as well as Desktop Applications and Automation Applications.</p>
+                        <p className="prjct-descrip-main">I've developed a diversity of projects using a wide array of technologies. In front-end development, I've built numerous applications with JavaScript, React, Redux, Next.js, and Vite, ranging from dynamic single-page apps to complex user interfaces. On the back-end, I've created robust APIs with Python and Express.js, often integrating MongoDB for scalable database solutions. My experience with C and C++ includes optimizing performance-critical applications and contributing to open-source projects.</p>
                         <a href="https://github.com/MuhammadTalha15" className='prjct-github'>GITHUB</a>
                     </div>
                 </div>

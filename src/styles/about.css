@@ -14,10 +14,18 @@
     height: 100vh;
     width: 50%;
     display: flex;
-    align-items: left;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-left: 8vmax;
+}
+
+.abt-txt-cont-cnt{
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .abt-head {
@@ -29,7 +37,7 @@
     height: 8vmax;
 }
 
-.descrip {
+.abt-descrip {
     font-family: var(--Poppins-font);
     font-size: 1vmax;
     font-weight: 400;
@@ -38,13 +46,21 @@
     width: 40vmax;
 }
 
-.descrip-main {
+.abt-descrip-main {
     font-family: var(--Poppins-font);
     font-size: 1vmax;
     font-weight: 400;
     color: #cecece;
     margin-top: 2rem;
     width: 40vmax;
+}
+
+.rght-tble-cont-cnt{
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .abt-table{
@@ -78,7 +94,6 @@ td{
     width: 100%;
     background-color: #202020;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .ext-lft{
@@ -121,25 +136,66 @@ td{
         -webkit-text-stroke: 1px #fff;
     }
 
+    /* ------------- */
+
+    .abt-scnd-sec{
+        flex-direction: column;
+    }
+
+    .ext-lft{
+        border: 1px solid;
+        height: 30%;
+        width: 100%;
+    }
+    
+    .mid{
+        border: 1px solid;
+        height: 40%;
+        width: 100%;
+    }
+    
+    .ext-rgt{
+        border: 1px solid;
+        height: 30%;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 550px) {
     .cont{
         padding-left: 0;
-        align-items: center;
+        align-items: left;
         justify-content: center;
-        text-align: center;
+        text-align: left;
+    }
+
+    th{
+        font-size: 1.3vmax;
+    }
+    
+    td{
+        font-size: 1.3vmax;
     }
 }
 
 @media (max-width: 380px) {
+
+    .abt-txt-cont-cnt{
+        height: 40vmax;
+        width: 40vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 
     .abt-head {
         font-size: 6vmax;
         -webkit-text-stroke: 1px #fff;
     }
 
-    .descrip {
+    .abt-descrip {
         font-family: var(--Poppins-font);
         font-size: 1vmax;
         font-weight: 400;
@@ -148,7 +204,7 @@ td{
         width: 30vmax;
     }
 
-    .descrip-main {
+    .abt-descrip-main {
         font-family: var(--Poppins-font);
         font-size: 1vmax;
         font-weight: 400;
