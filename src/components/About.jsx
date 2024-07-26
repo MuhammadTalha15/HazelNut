@@ -1,6 +1,10 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import '../styles/about.css'
+import vscode from '../assets/Icons/visual-studio.svg'
+import figma from '../assets/Icons/logo-figma.svg'
+import unsplash from '../assets/Icons/unsplash.svg'
+import photoshop from '../assets/Icons/adobe-photoshop-logo.svg'
 
 const About = () => {
 
@@ -77,7 +81,29 @@ const About = () => {
                     </div>
                 </div>
                 <div className="mid"></div>
-                <div className="ext-rgt"></div>
+                <div className="ext-rgt">
+                    <div className="wtdo-cnt">
+                        <h2 className="skls-head">What can I do?</h2>
+                        <p className="wtdo-p">I have experience in developing and designing websites and web applications. Additionally, I am skilled in writing scripts for various general purposes and creating full stack projects.</p>
+                    </div>
+                    <div className="sftwre-cnt">
+                        <h2 className="skls-head">Software I use</h2>
+                        <div className="sftwr-logo-cnt">
+                            <img title='Vs Code' className='sftwre-logo' src={vscode} alt="" />
+                            <img title='Figma' className='sftwre-logo' src={figma} alt="" />
+                            <img title='Unsplash' className='sftwre-logo' src={unsplash} alt="" />
+                            <img title='Adobe Photoshop' className='sftwre-logo' src={photoshop} alt="" />
+                        </div>
+                    </div>
+                    <div className="hby-cnt">
+                        <h2 className="skls-head">Hobbies & Interests</h2>
+                        <ol className="hby-ol">
+                            <li className="hby-li">Content Writing</li>
+                            <li className="hby-li">Coding</li>
+                            <li className="hby-li">Learning New Technologies</li>
+                        </ol>
+                    </div>
+                </div>
             </section>
         </>
     )
