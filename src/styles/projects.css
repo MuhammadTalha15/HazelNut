@@ -1,8 +1,10 @@
-:root {
-    --Poppins-font: 'Poppins', sans-serif;
-    --cursive-font: 'Comfortaa', cursivv;
-    --Roboto-font: 'Roboto', sans-serif;
-    --diff-color: #14b8a6;;
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+    --diff-color: #14b8a6;
+    --txt-light: #ececec;
+    --txt-dark: #b5b5b5;
 }
 
 .prjct-hero {
@@ -208,86 +210,6 @@
     gap: 2vmax;
 }
 
-.card {
-    height: 15vmax;
-    width: 25vmax;
-    background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.1), rgba(225, 255, 225, 0.1));
-    border-radius: 1vmax;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.card:hover{
-    background-color: rgba(124, 124, 124, 0.2);
-}
-
-.card:hover .project-link{
-    color: var(--diff-color);
-}
-
-.img {
-    height: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 0 1.5vmax;
-}
-
-.project-ico-img{
-    width: 2vmax;
-    filter: invert(100%) sepia(0%) saturate(4255%) hue-rotate(51deg) brightness(121%) contrast(106%);
-    pointer-events: none;
-    user-select: none;
-}
-
-.heading {
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 0 1.5vmax;
-}
-
-.project-inner-heading{
-    color: #fff;
-    font-family: var(--Poppins-font);
-    font-size: 1.5vmax;
-    font-weight: 500;
-}
-
-.description {
-    height: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 0 1.5vmax;
-}
-
-.project-description{
-    font-family: var(--Poppins-font);
-    font-size: .95vmax;
-    color: #fff;
-}
-
-.link{
-    height: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    padding: 0 1.5vmax;
-}
-
-.project-link{
-    color: gray;
-    font-family: var(--Poppins-font);
-    font-size: 1vmax;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.project-link:hover{
-    text-decoration: underline;
-}
 
 @media (max-width: 760px){
     .prjct-hero{

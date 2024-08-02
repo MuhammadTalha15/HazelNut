@@ -1,0 +1,47 @@
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+    --diff-color: #14b8a6;
+    --txt-light: #ececec;
+    --txt-dark: #b5b5b5;
+    --pointer-cur: url(../assets/Icons/cursor-pointer.png), auto;
+}
+
+.cntct-card{
+    height: 12vmax;
+    width: 12vmax;
+    background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.1), rgba(225, 255, 225, 0.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5vmax;
+    border-radius: 5px;
+    transition: 0.2s;
+    text-decoration: none;
+    cursor: var(--pointer-cur);
+}
+
+.cntct-card:hover{
+    background-color: rgba(124, 124, 124, 0.2);
+}
+
+.contact-card-image{
+    width: 2.5vmax;
+    filter: invert(54%) sepia(54%) saturate(645%) hue-rotate(124deg) brightness(98%) contrast(88%);
+}
+
+.contact-card-text{
+    color: var(--txt-light);
+    font-family: var(--Poppins-font);
+    font-weight: 400;
+    font-size: 1.3vmax;
+}
+
+.contact-card-head{
+    font-size: 1vmax;
+    font-family: var(--Poppins-font);
+    font-weight: 400;
+    color: var(--diff-color);
+}

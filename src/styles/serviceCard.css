@@ -1,0 +1,51 @@
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+    --diff-color: #14b8a6;
+    --txt-light: #ececec;
+    --txt-dark: #b5b5b5;
+    --pointer-cur: url(../assets/Icons/cursor-pointer.png), auto;
+}
+
+.ser-card{
+    height: 90%;
+    width: 23%;
+    background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.1), rgba(225, 255, 225, 0.1));
+    border-radius: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    cursor: var(--pointer-cur);
+}
+
+.ser-card:hover{
+    background-color: rgba(124, 124, 124, 0.2);
+}
+
+.ser-card-cont-cnt{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+}
+
+.ser-card-img{
+    width: 4vmax;
+}
+
+.ser-card-head{
+    font-family: var(--Poppins-font);
+    font-size: 1.7vmax;
+    color: var(--diff-color);
+    font-weight: 400;
+}
+
+.ser-card-p{
+    color: var(--txt-dark);
+    font-size: .75vmax;
+    font-family: var(--Poppins-font);
+}

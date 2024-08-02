@@ -1,25 +1,116 @@
-:root {
-    --Poppins-font: 'Poppins', sans-serif;
-    --cursive-font: 'Comfortaa', cursivv;
-    --Roboto-font: 'Roboto', sans-serif;
-    --diff-color: #14b8a6;;
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+    --diff-color: #14b8a6;
+    --txt-light: #ececec;
+    --txt-dark: #b5b5b5;
+    --pointer-cur: url(../assets/Icons/cursor-pointer.png), auto;
+    --pointer-txt: url(../assets/Icons/text.png), auto;
 }
-
-.footer{
-    position: absolute;
+  
+  .footer{
+    height: 45vh;
     width: 100%;
-    height: 2vmax;
-    /* background-color: #131313;    */
+    background-color: #090909;
+  }
+  
+  .ftr-uppr{
+    height: 90%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+  }
+  
+  .ftr-cnt{
+    height: 100%;
+    width: 40%;
+    border: 1px solid;
+    padding: 1vmax 2vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .ftr-logo{
+    width: 18vmax;
+  }
+
+  .ftr-lgo-aftr-txt{
+    font-family: var(--Poppins-font);
+    color: var(--txt-dark);
+    font-size: .9vmax;
+    width: 20vmax;
+    margin-left: .8vmax;
+  }
+
+  .sub-form{
+    height: 2.5vmax;
+    width: 25vmax;
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: .7vmax;
+    margin-top: 1vmax;
+  }
+
+  .sub{
+    height: 100%;
+    width: 70%;
+    background-color: #131313;
+    border: none;
+    font-size: 1vmax;
+    color: var(--txt-light);
+    font-family: var(--Poppins-font);
+    outline: none;
+    padding: 0 1vmax;
+    cursor: var(--pointer-txt);
+  }
+
+  .sub-btn{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid var(--diff-color);
+    font-size: .9vmax;
+    color: var(--txt-light);
+    font-family: var(--Poppins-font);
+    cursor: var(--pointer-cur);
+    transition: 0.2s;
+  }
+
+  .sub-btn:hover{
+    background-color: var(--diff-color);
+  }
+
+  .social-links{
+    height: 3vmax;
+    width: 7vmax;
+    /* border: 1px solid; */
+    margin-left: .7vmax;
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ftr-social-link-img{
+    width: 1.5vmax;
+    filter: invert(54%) sepia(54%) saturate(645%) hue-rotate(124deg) brightness(98%) contrast(88%);
+  }
+  
+  .ftr-lwr{
+    height: 10%;
+    width: 100%;
+    background-color: #050505;
     display: flex;
     align-items: center;
     justify-content: center;
-    bottom: 0;
-}
-
-.footer-text{
+  }
+  
+  .footer-text{
     color: #fff;
     font-family: var(--Poppins-font);
     font-size: .7vmax;
     font-weight: 200;
     letter-spacing: 1px;
-}
+  }

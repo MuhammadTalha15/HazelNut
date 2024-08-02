@@ -5,8 +5,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html{
     font-size: 10px;
+    cursor: url('../assets/Icons/cursor.png'), auto;
 }
