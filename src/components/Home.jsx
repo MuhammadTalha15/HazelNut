@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/home.css'
-import Footer from './Footer'
 import ServiceCard from './serviceCard'
 import ProjectCard from './projectCard'
 import MapComponent from './MapComponent'
@@ -96,10 +95,10 @@ const Home = () => {
             </form>
             <div className="frm-after">
               <div className="cntct-c">
-                <ContactCard logo={Facebook} sname='Facebook' />
-                <ContactCard logo={Instagram} sname='Instagram' />
-                <ContactCard logo={Github} sname='Github' />
-                <ContactCard logo={Mail} sname='E-Mail' />
+                <ContactCard logo={Facebook} sname='Facebook' link='https://www.facebook.com/profile.php?id=100092518021987' />
+                <ContactCard logo={Instagram} sname='Instagram' link='https://www.instagram.com/ttlha._15' />
+                <ContactCard logo={Github} sname='Github' link='https://www.github.com/MuhammadTalha15' />
+                <ContactCard logo={Mail} sname='E-Mail' link='https://mail.google.com' />
               </div>
               <div className="map">
                 <MapComponent />
@@ -108,7 +107,6 @@ const Home = () => {
           </div>
         </section>
       </section>
-      <Footer/>
     </>
   )
 }

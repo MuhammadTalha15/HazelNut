@@ -10,12 +10,13 @@
 }
   
   .footer{
-    height: 45vh;
+    height: 40vh;
     width: 100%;
     background-color: #090909;
   }
   
   .ftr-uppr{
+    position: relative;
     height: 90%;
     width: 100%;
     border: 1px solid;
@@ -25,7 +26,7 @@
   .ftr-cnt{
     height: 100%;
     width: 40%;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding: 1vmax 2vmax;
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@
   }
 
   .ftr-logo{
-    width: 18vmax;
+    width: 15vmax;
   }
 
   .ftr-lgo-aftr-txt{
@@ -41,6 +42,7 @@
     color: var(--txt-dark);
     font-size: .9vmax;
     width: 20vmax;
+    margin-top: 1vmax;
     margin-left: .8vmax;
   }
 
@@ -50,7 +52,7 @@
     /* border: 1px solid; */
     display: flex;
     margin-left: .7vmax;
-    margin-top: 1vmax;
+    margin-top: 1.5vmax;
   }
 
   .sub{
@@ -70,7 +72,7 @@
     height: 100%;
     width: 30%;
     background-color: transparent;
-    border: 1px solid var(--diff-color);
+    border: 1px solid var(--txt-light);
     font-size: .9vmax;
     color: var(--txt-light);
     font-family: var(--Poppins-font);
@@ -79,7 +81,8 @@
   }
 
   .sub-btn:hover{
-    background-color: var(--diff-color);
+    background-color:var(--txt-light);
+    color: #090909;
   }
 
   .social-links{
@@ -94,8 +97,39 @@
   }
 
   .ftr-social-link-img{
-    width: 1.5vmax;
-    filter: invert(54%) sepia(54%) saturate(645%) hue-rotate(124deg) brightness(98%) contrast(88%);
+    width: 1.3vmax;
+    filter: invert(98%) sepia(91%) saturate(63%) hue-rotate(168deg) brightness(115%) contrast(85%);
+  }
+
+  .mid{
+    padding: 1vmax 12vmax;
+  }
+
+  .ftr-nav{
+    font-family: var(--Poppins-font);
+    color: var(--txt-light);
+    font-size: 1.5vmax;
+    font-weight: 400;
+  }
+
+  .ftr-ol{
+    list-style: none;
+  }
+
+  .ftr-ol li{
+    display: block;
+    margin: 1vmax;
+  }
+
+  .ftr-ol li a, .ftr-info{
+    color: var(--txt-dark);
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    text-decoration: none;
+  }
+
+  .ftr-ol li a:hover{
+    text-decoration: underline;
   }
   
   .ftr-lwr{
