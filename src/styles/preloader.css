@@ -5,6 +5,7 @@
 }
 
 .loader{
+    display: block;
     position: fixed;
     height: 100vh;
     width: 100%;
@@ -16,6 +17,8 @@
     gap: 1vmax;
     z-index: 1000;
     pointer-events: none;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 .loader-logo{

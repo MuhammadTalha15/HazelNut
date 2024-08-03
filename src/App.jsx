@@ -8,7 +8,6 @@ import Articals from './components/Articals'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Loader from './components/Loader'
 
 
 function App() {
@@ -49,7 +48,6 @@ function App() {
 
   return (
     <>
-    {loader && <Loader/>}
       <main className='mn'>
         <RouterProvider router={routes}></RouterProvider>
       </main>

@@ -14,7 +14,6 @@ const Footer = () => {
   const path = useLocation();
   useEffect(() => {
     scrollFooterTop();  
-    console.log('Changed')
   }, [path]);
 
   const scrollFooterTop = () => {

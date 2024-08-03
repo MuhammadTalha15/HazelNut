@@ -5,11 +5,13 @@ import JavascriptLogo from '../assets/Logo/js.png'
 import ReactLogo from '../assets/Logo/react.png'
 import PythonLogo from '../assets/Logo/py.png'
 import CPPLogo from '../assets/Logo/cpp.png'
+import Loader from './Loader'
 
 const Projects = () => {
 
     return (
         <>
+            <Loader />
             <section className="prjct-hero">
                 <div className="prjct-txt prjct-cont">
                     <div className="prjct-txt-cont-cnt">
@@ -47,7 +49,7 @@ const Projects = () => {
                     </div>
                 </div>
             </section>
-            
+
             <section className="projects-container-second-section">
                 <div className="headwrapper">
                     <h2 className="prjct-scnd-head">Things I’ve made so Far.</h2>

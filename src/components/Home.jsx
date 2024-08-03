@@ -3,6 +3,8 @@ import '../styles/home.css'
 import ServiceCard from './serviceCard'
 import ProjectCard from './projectCard'
 import MapComponent from './MapComponent'
+import Loader from './Loader'
+
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -31,6 +33,7 @@ const Home = () => {
 
   return (
     <>
+      <Loader />
       <section className='first' id='first'>
         <section className='hero-section'>
           <div className="content-cnt">
