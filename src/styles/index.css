@@ -2,13 +2,13 @@
 *,
 *::before,
 *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  cursor: url(../assets/Icons/default-cursor.png), auto;
 }
 
 html{
-    font-size: 10px;
-    cursor: url('../assets/Icons/cursor.png'), auto;
+  font-size: 10px;
 }

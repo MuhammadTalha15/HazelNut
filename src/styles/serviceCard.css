@@ -9,19 +9,18 @@
 }
 
 .ser-card{
-    height: 90%;
-    width: 23%;
-    background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.1), rgba(225, 255, 225, 0.1));
-    border-radius: 1vmax;
+    height: 20.5vmax;
+    width: 20.5vmax;
+    background: linear-gradient(-45deg ,rgba(96, 96, 96, 0.1), rgba(63, 63, 63, 0.1));
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.2s;
-    cursor: var(--pointer-cur);
+    cursor: pointer;
 }
 
 .ser-card:hover{
-    background-color: rgba(124, 124, 124, 0.2);
+    background-color: rgba(96, 96, 96, 0.2);
 }
 
 .ser-card-cont-cnt{
@@ -40,12 +39,12 @@
 .ser-card-head{
     font-family: var(--Poppins-font);
     font-size: 1.7vmax;
-    color: var(--diff-color);
+    color: #0c0c0c;
     font-weight: 400;
 }
 
 .ser-card-p{
-    color: var(--txt-dark);
+    color: #151515;
     font-size: .75vmax;
     font-family: var(--Poppins-font);
 }
