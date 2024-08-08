@@ -31,7 +31,7 @@ const Home = () => {
     })
 
     const btnReference = useRef('start-btn');
-
+    
     const scrollMain = () => {
         let target = document.getElementById('sec')
         window.scrollTo(0, target.offsetHeight)
@@ -124,8 +124,8 @@ const Home = () => {
                     <a href="#sec" className='thir-btn'>Contact Me</a>
                 </div>
             </section>
-        </>
-    )
+    </>
+  )
 }
 
 export default Home
