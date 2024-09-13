@@ -1,9 +1,10 @@
 import React from 'react'
 import '../styles/home.css'
-import Footer from './Footer'
 import ServiceCard from './serviceCard'
 import ProjectCard from './projectCard'
 import MapComponent from './MapComponent'
+import Loader from './Loader'
+
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
@@ -32,6 +33,7 @@ const Home = () => {
 
   return (
     <>
+      <Loader />
       <section className='first' id='first'>
         <section className='hero-section'>
           <div className="content-cnt">
@@ -51,10 +53,10 @@ const Home = () => {
           <h1 className="main-head">Exceeding Expectations</h1>
           <p className="fir-sec-p">Offering bespoke web development solutions that blend innovation with precision to elevate your digital presence.</p>
           <div className="ser-card-holder">
-            <ServiceCard image={Trophy} heading='Expertise in Figma to Webflow' description='Offering bespoke web development solutions that blend innovation with precision to elevate your digital presence.' />
-            <ServiceCard image={Bug} heading='Comprehensive Testing' description='Offering bespoke web development solutions that blend innovation with precision to elevate your digital presence.' />
-            <ServiceCard image={Light} heading='Interactivity and Responsiveness' description='Offering bespoke web development solutions that blend innovation with precision to elevate your digital presence.' />
-            <ServiceCard image={Clock} heading='Product Delivery on Time' description='Offering bespoke web development solutions that blend innovation with precision to elevate your digital presence.' />
+            <ServiceCard image={Trophy} heading='Expertise in Figma to Webflow' description='Seamlessly transform your designs from Figma to Webflow with my expertise, ensuring pixel-perfect implementation and interactive, responsive websites.' />
+            <ServiceCard image={Bug} heading='Comprehensive Testing' description='Ensure your projects are robust and error-free with my comprehensive testing services, covering functionality, performance, and user experience.' />
+            <ServiceCard image={Light} heading='Interactivity and Responsiveness' description='Enhance user experience with dynamic interactivity and seamless responsiveness, ensuring your website looks and performs flawlessly on all devices.' />
+            <ServiceCard image={Clock} heading='Product Delivery on Time' description='Depend on timely and efficient product delivery, ensuring your projects are completed and launched as scheduled without compromising quality.' />
           </div>
         </section>
       </section>
@@ -76,7 +78,7 @@ const Home = () => {
         <section className='fir-forth-section-wrapper'>
           <h2 className="before-head">CONTACT</h2>
           <h1 className="main-head">Get In Touch</h1>
-          <p className="fir-sec-p">Discover My Latest  Creations that showcase the Designing Innovations and Digital Essentials. Feel free to Explore for More.</p>
+          <p className="fir-sec-p">Reach out to collaborate or discuss innovative web solutions—I'm here to connect.</p>
           <div className="form-cont-holder">
             <form action="submit" className='form'>
               <h3 className="frm-head">Message Me</h3>
@@ -96,10 +98,10 @@ const Home = () => {
             </form>
             <div className="frm-after">
               <div className="cntct-c">
-                <ContactCard logo={Facebook} sname='Facebook' />
-                <ContactCard logo={Instagram} sname='Instagram' />
-                <ContactCard logo={Github} sname='Github' />
-                <ContactCard logo={Mail} sname='E-Mail' />
+                <ContactCard logo={Facebook} sname='Facebook' link='https://www.facebook.com/profile.php?id=100092518021987' />
+                <ContactCard logo={Instagram} sname='Instagram' link='https://www.instagram.com/ttlha._15' />
+                <ContactCard logo={Github} sname='Github' link='https://www.github.com/MuhammadTalha15' />
+                <ContactCard logo={Mail} sname='E-Mail' link='https://mail.google.com' />
               </div>
               <div className="map">
                 <MapComponent />
@@ -108,7 +110,6 @@ const Home = () => {
           </div>
         </section>
       </section>
-      <Footer/>
     </>
   )
 }

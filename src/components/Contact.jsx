@@ -1,9 +1,11 @@
 import React from 'react'
 import '../styles/contact.css'
+import Loader from './Loader'
 
 const Contact = () => {
   return (
     <>
+      <Loader />
       <section className="cntct-hero">
         <div className="cntct-lft">
           <div className="contact-left-cont-cnt">

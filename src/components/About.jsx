@@ -5,11 +5,13 @@ import vscode from '../assets/Icons/visual-studio.svg'
 import figma from '../assets/Icons/logo-figma.svg'
 import unsplash from '../assets/Icons/unsplash.svg'
 import photoshop from '../assets/Icons/adobe-photoshop-logo.svg'
+import Loader from './Loader'
 
 const About = () => {
 
     return (
         <>
+            <Loader />
             <section className="abt-hero-sec">
                 <div className="txt cont">
                     <div className="abt-txt-cont-cnt">
