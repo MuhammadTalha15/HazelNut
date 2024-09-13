@@ -1,130 +1,116 @@
-:root {
-    --Poppins-font: 'Poppins', sans-serif;
-    --Italiana-font: "Italiana", sans-serif;
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
     --diff-color: #14b8a6;
     --txt-light: #ececec;
     --txt-dark: #b5b5b5;
-    --cursor-default: url(../assets/Icons/default-cursor.png), auto;
-    --cursor-pointer: url(../assets/Icons/pointer-cursor.png), auto;
+    --pointer-cur: url(../assets/Icons/cursor-pointer.png), auto;
+    --pointer-txt: url(../assets/Icons/text.png), auto;
 }
-
-.footer{
-    position: relative;
-    height: 35vmax;
+  
+  .footer{
+    height: 45vh;
     width: 100%;
-    background-color: #111;
+    background-color: #090909;
+  }
+  
+  .ftr-uppr{
+    height: 90%;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+  }
+  
+  .ftr-cnt{
+    height: 100%;
+    width: 40%;
+    border: 1px solid;
+    padding: 1vmax 2vmax;
     display: flex;
     flex-direction: column;
-    border-top: 2px solid #646464;
-}
+    align-items: flex-start;
+  }
 
-.footer :hover{
-    cursor: var(--cursor-pointer);
-}
-
-.ftr-upr-txt-cnt{
-    height: 25%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ftr-upr-txt{
-    height: 50%;
-    width: 60%;
-    border: 1px solid #656565;
-    border-left: none;
-    border-right: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ftr-txt{
-    color: #656565;
-    font-family: var(--Poppins-font);
-    font-size: .9vmax;
-}
-
-.ftr-lwr-txt-cnt{
-    height: 75%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.ftr-nav{
-    height: 3vmax;
-    width: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ftr-nav ol{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5vmax;
-}
-
-.ftr-nav ol li{
-    display: inline-block;
-    cursor: pointer;
-}
-
-.ftr-nav ol li a{
-    color: #656565;
-    text-decoration: none;
-    font-family: var(--Poppins-font);
-    font-size: 1vmax;
-    transition: 0.2s;
-    cursor: var(--cursor-pointer);
-}
-
-.ftr-nav ol li a:hover{
-    color: #c0c0c0;
-}
-
-.ftr-logo{
-    height: 18vmax;
+  .ftr-logo{
     width: 18vmax;
+  }
+
+  .ftr-lgo-aftr-txt{
+    font-family: var(--Poppins-font);
+    color: var(--txt-dark);
+    font-size: .9vmax;
+    width: 20vmax;
+    margin-left: .8vmax;
+  }
+
+  .sub-form{
+    height: 2.5vmax;
+    width: 25vmax;
     /* border: 1px solid; */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1vmax;
-}
+    margin-left: .7vmax;
+    margin-top: 1vmax;
+  }
 
-.ftr-logo-img{
-    position: relative;
-    width: 15vmax;
-}
+  .sub{
+    height: 100%;
+    width: 70%;
+    background-color: #131313;
+    border: none;
+    font-size: 1vmax;
+    color: var(--txt-light);
+    font-family: var(--Poppins-font);
+    outline: none;
+    padding: 0 1vmax;
+    cursor: var(--pointer-txt);
+  }
 
-.ftr-stick{
-    content: 'Hello';
-    height: 5vmax;
-    width: 2px;
-    background-color: #656565;
-}
+  .sub-btn{
+    height: 100%;
+    width: 30%;
+    background-color: transparent;
+    border: 1px solid var(--diff-color);
+    font-size: .9vmax;
+    color: var(--txt-light);
+    font-family: var(--Poppins-font);
+    cursor: var(--pointer-cur);
+    transition: 0.2s;
+  }
 
-.cpy-rgt-licence{
+  .sub-btn:hover{
+    background-color: var(--diff-color);
+  }
+
+  .social-links{
     height: 3vmax;
-    width: 50%;
-    border: 1px solid #656565;
-    border-left: none;
-    border-right: none;
+    width: 7vmax;
+    /* border: 1px solid; */
+    margin-left: .7vmax;
+    margin-top: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .ftr-social-link-img{
+    width: 1.5vmax;
+    filter: invert(54%) sepia(54%) saturate(645%) hue-rotate(124deg) brightness(98%) contrast(88%);
+  }
+  
+  .ftr-lwr{
+    height: 10%;
+    width: 100%;
+    background-color: #050505;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.copy-text{
-    color: #656565;
+  }
+  
+  .footer-text{
+    color: #fff;
     font-family: var(--Poppins-font);
-    font-size: .8vmax;
-}
+    font-size: .7vmax;
+    font-weight: 200;
+    letter-spacing: 1px;
+  }

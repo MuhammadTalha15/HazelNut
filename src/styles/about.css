@@ -1,0 +1,354 @@
+:root {
+    --Poppins-font: 'Poppins', sans-serif;
+    --cursive-font: 'Comfortaa', cursive;
+    --Roboto-font: 'Roboto', sans-serif;
+}
+
+.abt-hero-sec {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.cont{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt-txt-cont-cnt{
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt-head {
+    font-size: 6vmax;
+    color: transparent;
+    font-family: var(--Poppins-font);
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+    height: 8vmax;
+}
+
+.abt-descrip {
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    font-weight: 400;
+    color: #cecece;
+    margin-top: 2rem;
+    width: 40vmax;
+}
+
+.abt-descrip-main {
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    font-weight: 400;
+    color: #cecece;
+    margin-top: 2rem;
+    width: 40vmax;
+}
+
+.rght-tble-cont-cnt{
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abt-table{
+    height: 25vmax;
+    width: 35vmax;
+    border-collapse: collapse;
+}
+
+th{
+    font-size: 1vmax;
+    font-weight: 400;
+    font-family: var(--Poppins-font);
+    padding-left: 3vmax;
+    text-align: left;
+    width: 13vmax;
+    color: #fff;
+}
+
+td{
+    font-size: 1vmax;
+    font-weight: 300;
+    font-family: var(--Poppins-font);
+    text-align: left;
+    color: #a0a0a0;
+}
+
+/* ------------ */
+
+.abt-scnd-sec{
+    height: 100vh;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+}
+
+.ext-lft{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.tch-sklls-cnt{
+    height: 38%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.prfl-sklls-cnt{
+    height: 38%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.prsnl-sklls-cnt{
+    height: 15%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+    /* border: 1px solid; */
+}
+
+.skls-head{
+    color: #fff;
+    font-family: var(--Poppins-font);
+    font-size: 2vmax;
+    font-weight: 300;
+}
+
+.sklls-ol{
+    height: 70%;
+    width: 80%;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: .5vmax;
+    padding: 0 .2vmax;
+}
+
+.per{
+    height: 20%;
+    width: 103%;
+}
+
+ol.sklls-ol li.sklls-li{
+    font-size: 1vmax;
+    font-family: var(--Poppins-font);
+    font-weight: 300;
+    color: #afafaf;
+}
+
+
+.mid{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 40%;
+}
+
+.ext-rgt{
+    /* border: 1px solid; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.wtdo-cnt{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.wtdo-p{
+    font-size: 1vmax;
+    color: #afafaf;
+    font-family: var(--Poppins-font);
+}
+
+.sftwre-cnt{
+    height: 25%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.sftwr-logo-cnt{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sftwre-logo{
+    width: 2vmax;
+    filter: invert(65%) sepia(44%) saturate(6%) hue-rotate(330deg) brightness(99%) contrast(94%);
+    cursor: pointer;
+}
+
+.hby-cnt{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.hby-ol{
+    height: auto;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5vmax;
+}
+
+.hby-li{
+    font-size: 1vmax;
+    font-family: var(--Poppins-font);
+    color: #afafaf;
+}
+
+/* ------------ */
+
+@media (max-width: 750px) {
+
+    .abt-hero-sec {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cont{
+        height: 50%;
+        width: 100%;
+    }
+
+    .abt-head {
+        font-size: 7vmax;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    /* ------------- */
+
+    .abt-scnd-sec{
+        flex-direction: column;
+    }
+
+    .ext-lft{
+        border: 1px solid;
+        height: 30%;
+        width: 100%;
+    }
+    
+    .mid{
+        border: 1px solid;
+        height: 40%;
+        width: 100%;
+    }
+    
+    .ext-rgt{
+        border: 1px solid;
+        height: 30%;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 550px) {
+    .cont{
+        padding-left: 0;
+        align-items: left;
+        justify-content: center;
+        text-align: left;
+    }
+
+    th{
+        font-size: 1.3vmax;
+    }
+    
+    td{
+        font-size: 1.3vmax;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .abt-txt-cont-cnt{
+        height: 40vmax;
+        width: 40vmax;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .abt-head {
+        font-size: 6vmax;
+        -webkit-text-stroke: 1px #fff;
+    }
+
+    .abt-descrip {
+        font-family: var(--Poppins-font);
+        font-size: 1vmax;
+        font-weight: 400;
+        color: #cecece;
+        margin-top: 2rem;
+        width: 30vmax;
+    }
+
+    .abt-descrip-main {
+        font-family: var(--Poppins-font);
+        font-size: 1vmax;
+        font-weight: 400;
+        color: #cecece;
+        margin-top: 2rem;
+        width: 30vmax;
+    }
+
+}

@@ -1,24 +1,54 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './styles/App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
 import Navbar from './components/Navbar'
-import Home from './components/Home';
-import Footer from './components/Footer'
+import Home from './components/Home'
+import About from './components/About'
+import Projects from './components/Projects'
+import Articals from './components/Articals'
+import Contact from './components/Contact'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Loader from './components/Loader'
 
 
 function App() {
-  const [count, setCount] = useState(0);
+
+  const [loader, setloader] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setloader(false)
+    }, 1500);
+  }, []);
 
   const routes = createBrowserRouter([
     {
       path: '/',
-      element: <><Navbar /><Home /><Footer /></>
+      element: <><Navbar /><Home /></>
+    },
+    {
+      path: '/About',
+      element: <><Navbar /><About /></>
+    },
+    {
+      path: '/Projects',
+      element: <><Navbar /><Projects /></>
+    },
+    {
+      path: '/Articals',
+      element: <><Navbar /><Articals /></>
+    },
+    {
+      path: '/Contact',
+      element: <><Navbar /><Contact /></>
     }
   ])
 
+  
+
+
   return (
     <>
+    {loader && <Loader/>}
       <main className='mn'>
         <RouterProvider router={routes}></RouterProvider>
       </main>

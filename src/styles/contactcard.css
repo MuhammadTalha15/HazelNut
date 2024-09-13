@@ -8,44 +8,40 @@
     --pointer-cur: url(../assets/Icons/cursor-pointer.png), auto;
 }
 
-.ser-card{
-    height: 90%;
-    width: 23%;
+.cntct-card{
+    height: 12vmax;
+    width: 12vmax;
     background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.1), rgba(225, 255, 225, 0.1));
-    border-radius: 1vmax;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: .5vmax;
+    border-radius: 5px;
     transition: 0.2s;
+    text-decoration: none;
     cursor: var(--pointer-cur);
 }
 
-.ser-card:hover{
+.cntct-card:hover{
     background-color: rgba(124, 124, 124, 0.2);
 }
 
-.ser-card-cont-cnt{
-    height: 80%;
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    /* align-items: flex-start; */
-    justify-content: center;
+.contact-card-image{
+    width: 2.5vmax;
+    filter: invert(54%) sepia(54%) saturate(645%) hue-rotate(124deg) brightness(98%) contrast(88%);
 }
 
-.ser-card-img{
-    width: 4vmax;
-}
-
-.ser-card-head{
+.contact-card-text{
+    color: var(--txt-light);
     font-family: var(--Poppins-font);
-    font-size: 1.7vmax;
-    color: var(--diff-color);
     font-weight: 400;
+    font-size: 1.3vmax;
 }
 
-.ser-card-p{
-    color: var(--txt-dark);
-    font-size: .75vmax;
+.contact-card-head{
+    font-size: 1vmax;
     font-family: var(--Poppins-font);
+    font-weight: 400;
+    color: var(--diff-color);
 }

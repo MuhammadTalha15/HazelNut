@@ -1,0 +1,260 @@
+:root{
+    --Poppins-font: 'Poppins',sans-serif;
+    --cursive-font: 'Comfortaa',cursivv;
+    --Roboto-font: 'Roboto',sans-serif;
+    --diff-color: #14b8a6;
+    --txt-light: #ececec;
+    --txt-dark: #b5b5b5;
+}
+
+.prjct-hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../assets/Images/project-background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+.prjct-cont{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prjct-txt-cont-cnt{
+    height: 40vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prjct-head {
+    font-size: 6vmax;
+    color: transparent;
+    font-family: var(--Poppins-font);
+    font-weight: 700;
+    -webkit-text-stroke: 1px #fff;
+    height: 8vmax;
+}
+
+.prjct-descrip{
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    font-weight: 400;
+    color: #cecece;
+    margin-top: 2rem;
+    width: 40vmax;
+}
+
+.prjct-descrip-main{
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    font-weight: 400;
+    color: #cecece;
+    margin-top: 2rem;
+    width: 40vmax;
+}
+
+.prjct-tech-cont-cnt{
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prjct-tech{
+    height: 35vmax;
+    width: 40vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.prjct-tech-head{
+    font-family: var(--Poppins-font);
+    color: #fff;
+    font-size: 2vmax;
+    font-weight: 400;
+    margin: 3vmax 0;
+}
+
+.ico-cnt{
+    height: 20vmax;
+    width: 32.5vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vmax;
+}
+
+.tech-cnt{
+    height: 9.5vmax;
+    width: 9.5vmax;
+    background: linear-gradient(-45deg ,rgba(50, 50, 50, 0.3), rgba(225, 255, 225, 0.3));
+    border-radius: 1vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tech-cnt:hover{
+    background-color: rgba(124, 124, 124, 0.6)
+}
+
+
+.icon-cnt{
+    height: 3vmax;
+    width: 3vmax;
+    background-size: cover;
+    background-position: center;
+    filter: invert(100%) sepia(94%) saturate(0%) hue-rotate(174deg) brightness(105%) contrast(107%);
+}
+
+.h{
+    background-image: url(../assets/Logo/html.png);
+}
+.j{
+    background-image: url(../assets/Logo/js.png);
+}
+.r{
+    background-image: url(../assets/Logo/react.png);
+}
+.p{
+    background-image: url(../assets/Logo/py.png);
+}
+.c{
+    background-image: url(../assets/Logo/cpp.png);
+}
+
+.ico-title{
+    font-family: var(--Poppins-font);
+    font-weight: 500;
+    font-size: 1vmax;
+    color: #fff;
+    margin-top: 1vmax;
+    user-select: none;
+}
+
+.prjct-github {
+    height: 3vmax;
+    width: 13vmax;
+    margin-top: 2vmax;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    transition: 0.2s;
+}
+
+.prjct-github:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.projects-container-second-section{
+    height: 100vh;
+    max-height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+}
+
+.headwrapper {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.prjct-scnd-head {
+    font-size: 3vmax;
+    font-family: var(--Poppins-font);
+    color: #fff;
+    font-weight: 300;
+}
+
+.prjct-scnd-head-para{
+    font-family: var(--Poppins-font);
+    font-size: 1.1vmax;
+    margin: 0 8vmax;
+    color: gray;
+}
+
+.project-cont-wrapper {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vmax;
+}
+
+
+@media (max-width: 760px){
+    .prjct-hero{
+        flex-direction: column;
+    }
+
+    .prjct-cont{
+        width: 100%;
+    }
+
+    .prjct-tech-cont-cnt{
+        width: 100%;
+    }
+}
+
+@media (max-width: 515px){
+
+    .prjct-scnd-head-para{
+        margin: 1vmax 8vmax;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 400px){
+
+    .projects-container-second-section{
+        height: 110vh;
+    }
+}
+
+@media (max-width: 380px) {
+
+    .prjct-txt-cont-cnt{
+        align-items: center;
+    }
+
+    .prjct-descrip {
+        font-size: 1vmax;
+        width: 30vmax;
+    }
+
+    .prjct-descrip-main {
+        font-size: 1vmax;
+        width: 30vmax;
+    }
+
+}

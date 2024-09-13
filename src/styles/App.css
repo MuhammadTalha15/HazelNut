@@ -1,23 +1,25 @@
-:root {
-    --Poppins-font: 'Poppins', sans-serif;
-    --Italiana-font: "Italiana", sans-serif;
-    --diff-color: #14b8a6;
-    --txt-light: #ececec;
-    --txt-dark: #b5b5b5;
-    --cursor-default: url(../assets/Icons/default-cursor.png), auto;
-    --cursor-pointer: url(../assets/Icons/pointer-cursor.png), auto;
-}
 
-::-webkit-scrollbar{
-    width: .6vmax;
-}
 
-::-webkit-scrollbar-thumb{
-    width: .8vmax;
+.mn{
+    height: 100vh;
+    width: 100%;
     background-color: #131313;
 }
 
+::-webkit-scrollbar{
+    width: .5vmax;
+    background-color: #131313;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 100%;
+    background-color: #fff;
+}
+
 ::-webkit-scrollbar-thumb:hover{
-    width: .8vmax;
-    background-color: #242424;
+    background-color: #dedede;
+}
+
+::-webkit-scrollbar-thumb:active{
+    background-color: #b3b3b3;
 }
