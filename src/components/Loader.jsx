@@ -20,7 +20,6 @@ const Loader = () => {
     <>
       <div ref={loaderRef} className="loader" id="loader">
         <div className="spinner"></div>
-        <img className='loader-logo' src={LoadingLogo} alt="" loading='lazy' />
       </div>
     </>
   )
