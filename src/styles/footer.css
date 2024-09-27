@@ -10,141 +10,108 @@
 }
   
   .footer{
-    height: 40vh;
-    width: 100%;
-    background-color: #090909;
-  }
-  
-  .ftr-uppr{
-    position: relative;
-    height: 90%;
-    width: 100%;
-    border: 1px solid;
-    display: flex;
-  }
-  
-  .ftr-cnt{
-    height: 100%;
-    width: 40%;
-    /* border: 1px solid; */
-    padding: 1vmax 2vmax;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .ftr-logo{
-    width: 15vmax;
-  }
-
-  .ftr-lgo-aftr-txt{
-    font-family: var(--Poppins-font);
-    color: var(--txt-dark);
-    font-size: .9vmax;
-    width: 20vmax;
-    margin-top: 1vmax;
-    margin-left: .8vmax;
-  }
-
-  .sub-form{
-    height: 2.5vmax;
-    width: 25vmax;
-    /* border: 1px solid; */
-    display: flex;
-    margin-left: .7vmax;
-    margin-top: 1.5vmax;
-  }
-
-  .sub{
-    height: 100%;
-    width: 70%;
-    background-color: #131313;
-    border: none;
-    font-size: 1vmax;
-    color: var(--txt-light);
-    font-family: var(--Poppins-font);
-    outline: none;
-    padding: 0 1vmax;
-    cursor: var(--pointer-txt);
-  }
-
-  .sub-btn{
-    height: 100%;
-    width: 30%;
-    background-color: transparent;
-    border: 1px solid var(--txt-light);
-    font-size: .9vmax;
-    color: var(--txt-light);
-    font-family: var(--Poppins-font);
-    cursor: var(--pointer-cur);
-    transition: 0.2s;
-  }
-
-  .sub-btn:hover{
-    background-color:var(--txt-light);
-    color: #090909;
-  }
-
-  .social-links{
-    height: 3vmax;
-    width: 7vmax;
-    /* border: 1px solid; */
-    margin-left: .7vmax;
-    margin-top: 1vmax;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .ftr-social-link-img{
-    width: 1.3vmax;
-    filter: invert(98%) sepia(91%) saturate(63%) hue-rotate(168deg) brightness(115%) contrast(85%);
-  }
-
-  .mid{
-    padding: 1vmax 12vmax;
-  }
-
-  .ftr-nav{
-    font-family: var(--Poppins-font);
-    color: var(--txt-light);
-    font-size: 1.5vmax;
-    font-weight: 400;
-  }
-
-  .ftr-ol{
-    list-style: none;
-  }
-
-  .ftr-ol li{
-    display: block;
-    margin: 1vmax;
-  }
-
-  .ftr-ol li a, .ftr-info{
-    color: var(--txt-dark);
-    font-family: var(--Poppins-font);
-    font-size: 1vmax;
-    text-decoration: none;
-  }
-
-  .ftr-ol li a:hover{
-    text-decoration: underline;
-  }
-  
-  .ftr-lwr{
-    height: 10%;
+    height: 60vh;
     width: 100%;
     background-color: #050505;
+  }
+  
+  .uppr-txt-cnt{
+    height: 25%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  
-  .footer-text{
-    color: #fff;
+
+  .txt-cnt{
+    height: 55%;
+    width: 70%;
+    border-top: 2px solid #6f6f6f;
+    border-bottom: 2px solid #6f6f6f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ftr-upr-txt{
+    font-size: 1vmax;
     font-family: var(--Poppins-font);
-    font-size: .7vmax;
-    font-weight: 200;
-    letter-spacing: 1px;
+    color: #6f6f6f;
+  }
+
+  .ftr-lgo-cnt{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ftr-lgo{
+    width: 15vmax;
+    cursor: pointer;
+  }
+
+  .ftr-nav-cnt{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul{
+    list-style: none;
+    width: 30vmax;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  li{
+    display: inline-block;
+  }
+
+  ul li a{
+    color: #6f6f6f;
+    font-family: var(--Poppins-font);
+    font-size: 1vmax;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  ul li a:hover{
+    color: #bbbbbb;
+  }
+
+  .ftr-scl-lnk-cnt{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ul.scl{
+    list-style: none;
+    width: 18vmax;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .ftr-scl-img{
+    width: 1.5vmax;
+    filter: invert(43%) sepia(15%) saturate(7%) hue-rotate(322deg) brightness(97%) contrast(91%);
+  }
+
+  .cpy-rht-cnt{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cpy-rgt-txt{
+    font-size: .8vmax;
+    font-family: var(--Poppins-font);
+    color: #6f6f6f;
   }
