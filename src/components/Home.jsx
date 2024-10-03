@@ -91,22 +91,22 @@ const Home = () => {
           <div className="last-cont-holder">
             <p className="contct-p">Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at talhaz5518@gmail.com</p>
             <div className="lnk-cnt">
-              <a href="#" className='scl-a'>
+              <a href="https://www.facebook.com/profile.php?id=100092518021987" target='_blank' className='scl-a'>
                 <img src={Facebook} alt="" className="scl-lnk-img" />
                 <h3 className="scl-lbl">Follow me on</h3>
                 <h3 className="scl-name">Facebook</h3>
               </a>
-              <a href="#" className='scl-a'>
+              <a href="https://www.instagram.com/ttlha._15/" target='_blank' className='scl-a'>
                 <img src={Instagram} alt="" className="scl-lnk-img" />
                 <h3 className="scl-lbl">Follow me on</h3>
                 <h3 className="scl-name">Instagram</h3>
               </a>
-              <a href="#" className='scl-a'>
+              <a href="https://github.com/MuhammadTalha15" target='_blank' className='scl-a'>
                 <img src={Github} alt="" className="scl-lnk-img" />
                 <h3 className="scl-lbl">Follow me on</h3>
                 <h3 className="scl-name">Github</h3>
               </a>
-              <a href="#" className='scl-a'>
+              <a href="https://stackoverflow.com/users/23203699/muhammad-talha" target='_blank' className='scl-a'>
                 <img src={Stack} alt="" className="scl-lnk-img" />
                 <h3 className="scl-lbl">Follow me on</h3>
                 <h3 className="scl-name">Stack-Overflow</h3>
@@ -120,7 +120,7 @@ const Home = () => {
                 <h3 className="scl-name">Naval Anchorage, Islamabad</h3>
               </div> */}
             </div>
-            <a href="#" className='vw-btn'>Contact Me <span className='arrow'></span></a>
+            <Link to="/Contact" className='vw-btn'>Contact Me <span className='arrow'></span></Link>
           </div>
         </section>
       </section>

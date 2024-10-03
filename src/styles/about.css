@@ -18,123 +18,75 @@
 .abt-hero-sec {
     height: 100vh;
     width: 100%;
-    background-color: var(--background-color);
+    background-image: url(../assets/Images/Hero-Back.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.abt-sec-head{
-    height: 35vh;
+.head-cnt{
+    height: 25%;
     width: 100%;
+    /* border: 1px solid; */
     display: flex;
     align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.abt-txt-cont-cnt{
+    height: 75%;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.abt-mn-txt{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
-    /* border:  1px solid; */
+    gap: 2vmax;
+    padding: 5vmax 6vmax;
 }
 
-
-.abt-mn-hd{
-    font-size: 7vmax;
-    font-family: var(--Poppins-font);
-    color: transparent;
-    -webkit-text-stroke: 1px var(--txt-light);
-}
-
-.prsl-dta-sec{
-    height: 65vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* background-color: rebeccapurple; */
-}
-
-.heading-cnt{
-    
-    height: 8vmax;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.prsl-hd-fir{
-    font-size: 2vmax;
+.txt-fir, .txt-sec{
+    font-size: 1.1vmax;
     color: var(--light-gray-txt);
-    font-weight: 400;
     font-family: var(--Poppins-font);
-}
-
-.prsl-mn-hd{
-    font-size: 3vmax;
-    color: var(--def-txt-color);
-    font-family: var(--Poppins-font);
-    font-weight: 500;
-}
-
-.abt-txt-cnt{
-    
-    height: auto;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1vmax;
-    padding: 1vmax 5vmax;
-}
-
-.abt-prsl-txt{
-    font-family: var(--Poppins-font);
-    color: var(--txt-dark);
-    font-size: 1vmax;
 }
 
 .tble-cnt{
-    height: 40%;
-    width: 100%;
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid; */
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
 }
 
 table{
-    /* border: 1px solid; */
-    width: 35%;
-}
-
-
-.rght-tble-cont-cnt{
-    height: 40vmax;
-    width: 40vmax;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid;
-}
-
-.abt-table{
+    /* background-color: green; */
     height: 25vmax;
-    width: 35vmax;
-    border-collapse: collapse;
+    width: 30vmax;
 }
 
 th{
-    font-size: 1vmax;
-    font-weight: 400;
-    font-family: var(--Poppins-font);
-    padding-left: 3vmax;
-    text-align: left;
+    /* background-color: red; */
     width: 13vmax;
-    color: #fff;
+    text-align: left;
+    color: var(--def-txt-color);
 }
 
 td{
-    font-size: 1vmax;
-    font-weight: 300;
+    color: var(--light-gray-txt);
+}
+
+th, td{
     font-family: var(--Poppins-font);
-    text-align: left;
-    color: #a0a0a0;
+    font-size: 1vmax;
 }
 
 /* ------------ */
@@ -142,10 +94,39 @@ td{
 .abt-scnd-sec{
     height: 100vh;
     width: 100%;
-    background-color: var(--sec-background-color);
-    display: flex;
+    background-image: url(../assets/Images/about-sec-back.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
+.abt-scnd-sec-head-cnt{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt-cont-card-cnt{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* ------------ */
+
+.abt-thrd-sec{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../assets/Images/about-thir-back.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 /* ------------ */
 
