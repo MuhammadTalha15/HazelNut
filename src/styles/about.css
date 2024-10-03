@@ -113,7 +113,8 @@ th, td{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 2vmax;
     flex-wrap: wrap;
 }
 
